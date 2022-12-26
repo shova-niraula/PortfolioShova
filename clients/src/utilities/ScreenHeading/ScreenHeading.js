@@ -1,7 +1,7 @@
 import React from "react";
 import "./ScreenHeading.css";
 
-export default function ScreenHeading() {
+export default function ScreenHeading(props) {
   return (
     <div className="heading-container">
       <div className="screen-heading">
